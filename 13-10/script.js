@@ -12,10 +12,11 @@ alert(result);
 внутри массива. С помощью цикла найдите сумму квадратов элементов этого массива.
     Квадрат числа 5 будет 25.*/
 
+
 let arrey = [4, 5, 6, 8, 7, 3, 2, 1, 12, 14];
 let result1 = 0;
 for(let i = 0; i < arrey.length; i++){
-    result1 += arrey[i] * 2;
+    result1 += arrey[i] * arrey[i];
 }
 
 alert(result1);
