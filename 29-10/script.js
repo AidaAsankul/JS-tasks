@@ -1,9 +1,12 @@
+/*
 let counter = 0;
-const intervalId = setInterval(() => {
+let intervalId = setInterval(() => {
     console.log('Hello World');
-    counter += 1;
+    counter ++;
     if (counter === 5) {
         console.log('Done');
         clearInterval(intervalId);
     }
-}, 1000);
+}, 1000);*/
+
+console.log(document)
